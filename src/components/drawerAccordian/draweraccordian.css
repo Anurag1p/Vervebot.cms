@@ -1,0 +1,59 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+.Accordian_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ededed;
+}
+
+.AccordianTitle {
+    padding: 10px 10px 10px 0;
+}
+
+.AccordianTitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.AccordianTitle a:hover {
+    color:#f63a3a;
+}
+
+.AccordianTitle:hover {
+    color:#f63a3a;
+ }
+
+.AccordianDown {
+    margin-right: 10px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    background: #fbf4f4
+}
+
+.AccordianList {
+    margin-right: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.AccordianList a {
+   display: block;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #ededed;
+   color: #777;
+   transition: all .3s ease-out 0s;
+}
+
+.AccordianList a:hover {
+    color:#f63a3a;
+ }

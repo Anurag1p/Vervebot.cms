@@ -1,0 +1,18 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+
+  
+.container-fluid {
+    background: #f8f8f8;
+}
+
+
+
+
+
+

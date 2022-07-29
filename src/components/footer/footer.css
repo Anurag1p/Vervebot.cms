@@ -1,0 +1,202 @@
+:root {
+  --verbotblue: #3596d9;
+  --verbotmediumblue: #277099;
+  --verbotdarkblue: #15445a;
+  --verbotliteblue :rgba(53,155,217, 0.5);
+   background-color: black;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background:var(--verbotdarkblue);
+  position: relative;
+}
+.footer-cta {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--verbotblue);
+}
+.single-cta i {
+  margin: 10px;
+  color:var(--verbotblue);
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+
+}
+.cta-text {
+
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+    color:var(--verbotblue);
+  
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+ 
+}
+.cta-text span {
+  color:#fff;
+  font-size: 15px;
+}
+.cta-text span:hover {
+    color:var(--verbotblue);
+    font-size: 15px;
+  }
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color:var(--verbotblue);
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: var(--verbotblue);
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+} 
+.footer-social-icon a {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 40px;
+} 
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+ 
+   color: #fff;
+}
+.twitter-bg{
+color: #fff;
+} 
+.google-bg{
+
+  color: #fff;
+}
+.footer-widget-heading h3 {
+  color:var(--verbotblue);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: var(--verbotblue);
+}
+.footer-widget ul li {
+  display: inline;
+  float:left; 
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: var(--verbotblue);
+}
+.footer-widget ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+
+
+}
+.subscribe-form input {
+  width: 100%;
+  height: 50px;
+  padding: 14px 28px;
+  background: #fff;
+  border: none;
+  color: #fff;
+  cursor: var(--verbotblue);
+ 
+
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: var(--verbotblue);
+    padding: 13px 20px;
+    border: 1px solid var(--verbotblue);
+    top: 0;
+}
+.subscribe-form button:hover{
+  background: var(--verbotliteblue);
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  margin: 0 auto;
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text{
+  display: flex;
+
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+
+}
+.copyright-text p a{
+  color:var(--verbotblue);
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+} 
+ .footer-menu li:hover a{
+  color: var(--verbotblue);
+} 
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+input,textarea.LetsConnect {
+  color: var(--verbotblue)!important;
+}

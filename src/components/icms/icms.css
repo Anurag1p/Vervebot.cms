@@ -1,0 +1,173 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+
+  
+.mainbgicms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    background-color: var(--verbotdarkblue);
+    position: relative;
+    flex-direction: column;
+    padding: 80px 0;
+    z-index: 1;
+
+}
+
+.mainbgicms::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 50%;
+    background-color: var(--verbotliteblue);
+    z-index: -1;
+
+
+}
+
+.icmsbg {
+    z-index: 100;
+    background-color: white;
+    border-radius: 20px 0 20px 0;
+
+}
+
+.icmsMainHeading,
+.howworks {
+    text-align: center !important;
+    color: var(--verbotdarkblue);
+    padding-top: 20px;
+    display: block;
+    color: var(--verbotblue);
+    font-weight: 600;
+
+}
+
+.youTubevideo {
+    border: 2px solid var(--verbotdarkblue);
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+iframe {
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.discountTitle,
+.discountPrice {
+    color: var(--verbotblue);
+    font-weight: 600;
+
+}
+
+.discountCard {
+    text-align: center;
+    border-radius: 20px;
+    padding: 60px;
+    background-color: whitesmoke;
+    margin: 70px auto;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+
+}
+
+.discountCard::before {
+    content: "Special Offer";
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    transform: skew(.6turn, -50deg);
+    font-size: 0.6rem;
+    color: white;
+    padding: 5px 20px;
+    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    animation: gradient 10s ease infinite !important;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.icmsCards {
+    display: flex;
+    flex-direction: row;
+    color: var(--verbotblue);
+    justify-content: space-around;
+}
+
+.icmscard {
+    padding: 50px;
+    width: 40%;
+    box-shadow: 1px 10px 10px rgb(199, 195, 195);
+    border-radius: 10px;
+
+}
+
+.icsmUnorderList li {
+    list-style-position: inside;
+}
+
+.icmsListTitle {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.liDsc {
+    padding-left: 20px;
+}
+
+.icmsCardTitle {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.teamStructure {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.teamStructureImg:hover {
+    border: 100px solid whitesmoke;
+    box-shadow: 0px 10px 11px 0px rgb(0 0 0 / 50%);
+    transition: 0.8s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.clientTitle{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--verbotblue);
+}
+.seq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

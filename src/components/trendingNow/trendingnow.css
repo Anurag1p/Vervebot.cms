@@ -1,0 +1,71 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.trendingnow-bg {
+    background-color: #f2f5fc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.trending-date {
+    color: var(--verbotblue);
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+.trending-date button {
+    border-radius: 5px;
+    color: white;
+    background-color: var(--verbotblue);
+    border: none;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.trending-date button:hover {
+    background-color: var(--verbotdarkblue);
+
+}
+
+
+.trending-date span {
+    color: var(--verbotblue);
+    font-size: 14px;
+    margin: 5px;
+}
+
+
+.trending-title {
+    margin-top: 10px;
+}
+
+.trending-title p {
+    color:var(--verbotdarkblue);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.trending-title p:hover {
+    color: var(--verbotblue);
+}
+
+
+
+@media screen and (max-width: 1366px) and (min-width:1024px) {
+    .trending-date span {
+        display: none;
+    }
+}

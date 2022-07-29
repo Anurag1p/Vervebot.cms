@@ -1,0 +1,111 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the counter cards */
+.card_area {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+/* Float four columns side by side */
+.card_column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.card_row {
+    margin: 0 -10px;
+}
+
+/* Clear floats after the columns */
+.card_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card_area .card-img {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+
+.card-body {
+    position: relative;
+    padding: 0 !important;
+}
+
+
+
+.card-img-top:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 0.4s;
+}
+
+
+
+.card-body {
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1366px)  and (min-width:1024px) {
+    .trending-btn-date {
+        display: none;
+    }
+
+    .card_column {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .card_column {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+.card_area {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card_column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+

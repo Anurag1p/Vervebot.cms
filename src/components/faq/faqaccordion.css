@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Mate+SC&family=Raleway&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&family=Squada+One&display=swap");
+
+
+:root {
+  --verbotblue: #3596d9;
+  --verbotmediumblue: #277099;
+  --verbotdarkblue: #15445a;
+  --verbotliteblue :rgba(53,155,217, 0.5);
+   background-color: black;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+.faqMain {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60vw;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.faqtitle {
+  text-align: center;
+  word-spacing: 5px;
+  margin-bottom: 80px;
+  color: var(--verbotblue);
+}
+
+.FaqMainHeading {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  /* background: var(--verbotblue); */
+  box-shadow: rgba(212, 100, 100, 0.16) 0px 1px 4px;
+  color: white !important;
+  /* border: 1px solid red; */
+}
+
+.FaqMainHeading:first-child {
+  margin-top: 0;
+}
+
+.FaqMainHeading h3 {
+  margin: 15px 40px;
+  font-family: "Mate SC", serif;
+  color: #303243;
+  font-family: "Raleway", sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.FaqMainHeading p {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  box-shadow: rgba(27, 27, 231, 0.1) 0px 4px 16px,
+    rgba(17, 17, 137, 0.1) 0px 8px 24px, rgba(50, 50, 225, 0.1) 0px 16px 56px;
+  /* background: var(--verbotblue); */
+  background: white;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.answers {
+  padding: 30px 20px 40px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  word-spacing: 2px;
+  font-weight: 400;
+  line-height: 1.7;
+  /* background-color: rgb(127, 182, 231, 0.3); */
+  background-color: whitesmoke;
+  color: var(--verbotblue);
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.animationFaqHeding {
+
+  background-image: linear-gradient(-225deg,
+      #0787e2 5%,
+      #44107a 39%,
+      #ff1361 67%,
+      #0d6efd 100%);
+
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  display: inline-block;
+
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 150% center;
+  }
+}

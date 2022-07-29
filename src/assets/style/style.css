@@ -1,0 +1,44 @@
+:root {
+  --verbotblue: #3596d9;
+  --verbotmediumblue: #277099;
+  --verbotdarkblue: #15445a;
+  --verbotliteblue :rgba(53,155,217, 0.5);
+   background-color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--verbotdarkblue); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--verbotdarkblue); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  
+
+  
+

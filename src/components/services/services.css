@@ -1,0 +1,507 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.service1 {
+    padding: 50px 0 50px 0;
+}
+
+.serviceHeading {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.mainServiceContent {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 20px 50px 0;
+    justify-content: space-around;
+}
+
+.serviceImage {
+    width: 45%;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.contentservice {
+    width: 50%;
+    padding: 5rem 0;
+}
+
+.service-line {
+    width: 25%;
+    height: 10px;
+    background-color: var(--verbotdarkblue);
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+}
+
+.service1Content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--verbotblue);
+
+}
+
+.serviceConatctbtn {
+    padding: 5px;
+    width: 150px;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    border-radius: 10px;
+    color: white;
+    background-color: white !important;
+
+
+}
+
+.serviceConatctbtn:hover {
+    border: 1px solid var(--verbotdarkblue) !important;
+    background-color: whitesmoke !important;
+    padding: 8px;
+    color: var(--verbotdarkblue) !important;
+}
+
+
+.service2 {
+    padding: 20px 0 50px 0;
+
+}
+
+.service2heading {
+    padding: 20px 20px;
+    text-align: left;
+    height: auto;
+    width: 45%;
+    border-radius: 15px;
+}
+
+
+.service2Content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--verbotblue);
+}
+
+.properties {
+    height: 100%;
+    font-size: 2rem;
+    width: 100%;
+
+}
+
+.headingAnimation {
+    background-image: linear-gradient(-225deg,
+            #91c0e2 20%,
+            #44107a 39%,
+            #ff1361 67%,
+            #0d6efd 100%) !important;
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 150% center;
+    }
+}
+
+
+
+.divoted {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-content: space-around;
+
+}
+
+.contentservice {
+    margin-right: 20px;
+}
+
+.serviceImage3 {
+    width: 45%;
+    border-radius: 20px;
+}
+
+.service-icons {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.service-icon {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+
+    color: var(--verbotblue);
+}
+
+.star,
+.watch,
+.like {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 30px;
+}
+
+
+.ourspecial {
+    color: var(--verbotblue);
+}
+
+.special {
+    height: 50px;
+    padding: 1px 10px;
+    font-weight: 600;
+}
+
+.ourspecial {
+    font-size: 1rem;
+
+}
+
+
+.serviceCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ServiceCard {
+    height: 25rem;
+    padding: 4rem 1rem;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: left;
+    margin: 2rem 1rem;
+    width: 30%;
+}
+
+.card-img {
+    border-radius: 10px;
+    height: 15rem;
+    width: 100%;
+}
+
+.serviceMaincard {
+    margin: 0 -15px;
+}
+
+.serviceMaincard::after {
+    display: table;
+    clear: both;
+}
+
+
+.serviceText {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--verbotblue);
+
+
+}
+
+.ServiceCard:hover {
+    border: 1px solid gray;
+    box-shadow: 0px 10px 11px 0px rgb(0 0 0 / 50%);
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+}
+
+
+
+.serviceConatctbtn {
+    padding: 5px;
+    width: 150px;
+    font-size: 1.5rem !important;
+    border-radius: 10px;
+}
+
+.serviceConatctbtn:hover {
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    background-color: var(--verbotdarkblue);
+}
+
+
+/*............ section 5.................. */
+.mainServiceContent {
+    width: 100%;
+}
+
+.service5heading {
+    padding: 30px;
+    width: 50%;
+}
+
+.service5Content {
+    font-size: 2.5rem;
+    color: var(--verbotdarkblue);
+}
+
+.contentservice {
+    padding: 50px 20px;
+    color: var(--verbotblue);
+}
+
+
+
+
+.service6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img6 {
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.subcontainer {
+    width: 50%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.feasible {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+.suv-divisions {
+    display: flex;
+    flex-direction: row;
+}
+
+.feasible-icon {
+    width: 10%;
+    display: flex;
+}
+
+.faIcon {
+    padding-top: 20px;
+    font-size: 50px;
+    color: var(--verbotblue);
+}
+
+.feasble-title {
+    color: var(--verbotblue);
+    padding-top: 10px;
+}
+
+.feasible-content {
+    padding-left: 60px;
+    color: var(--verbotblue);
+}
+
+@media only screen and (max-width:768px) {
+
+
+    .btn {
+        width: 100%;
+
+    }
+
+    .serviceConatctbtn {
+        width: 60%;
+        height: 60px;
+    }
+
+    .service-line {
+        padding: 5px;
+        margin: 20px auto;
+
+    }
+
+    .service1Content {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    button {
+        text-align: center;
+    }
+
+    .mainServiceContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .serviceImage {
+        width: 100%;
+    }
+
+    .contentservice {
+        width: 100%;
+    }
+
+    .serviceHeading {
+        font-size: 2.5rem;
+    }
+
+    .serviceCards {
+        width: 100%;
+
+    }
+
+    .ServiceCard {
+        width: 93%;
+    }
+
+    .serviceText {
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+
+
+
+    .service2heading {
+        width: 100%;
+    }
+
+    .service2Content {
+        padding-top: 30px;
+    }
+
+
+    .divoted {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .ourspecial {
+        text-align: center !important;
+        font-size: 1.2rem;
+    }
+
+    .specialService {
+        text-align: center;
+        width: 100;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin: 5px 10px 20px 0;
+        color: var(--verbotblue);
+    }
+
+    .contentservice {
+        margin-bottom: 20px;
+    }
+
+    .watch,
+    .star {
+        width: 100%;
+        line-height: 40px;
+        font-size: 1rem;
+    }
+
+    .serviceImage3 {
+        width: 100%;
+    }
+
+
+    .service5heading {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .serviceCards {
+        width: 100%;
+    }
+
+    .ServiceCard {
+        width: 45%;
+    }
+
+    .serviceText {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding-top: 5px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 17rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .feasible {
+        width: 100%;
+    }
+
+    .service6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img6 {
+        width: 80%;
+    }
+
+    .serviceImage6 {
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 20px;
+
+    }
+
+    .subcontainer {
+        width: 90%;
+    }
+
+    .feasible-icon {
+        width: 10%;
+        padding: 0 5px 0 0;
+    }
+
+    .faIcon {
+        font-size: 2.2rem;
+    }
+}

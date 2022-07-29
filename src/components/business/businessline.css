@@ -1,0 +1,61 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.businessContainer {
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.businessContainer p {
+    display: inline;
+    position: inherit;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 2;
+    background-color: #fff;
+    padding-right: 10px;
+}
+
+
+.businessContainer div {
+    display: inline;
+    position: absolute;
+    height: 5px;
+    width: inherit;
+    background-color: var(--verbotblue);
+    top: 33px;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    .businessContainer div {
+        top: 34px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+    .businessContainer div {
+        top: 29px;
+    }
+
+    .businessContainer p {
+        font-size: 1.7rem;
+    }
+
+}

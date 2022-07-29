@@ -1,0 +1,52 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.carousel-display-flex-screen-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.carousel{
+    width: 100%;
+}
+.carousel-card-btn {
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--verbotblue);
+    border: none;
+    padding: 3px 10px;
+    width: 150px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.carousel-card-btn:hover {
+    background-color: var(--verbotblue);
+    color: white;
+}
+
+.carousel-date{
+    position: relative;
+    color:var(--verbotblue);
+
+}
+.carousel-btn-date {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 100px;
+    color:var(--verbotblue);
+    font-size: 14px;
+}
+.carousel-title{
+    text-align: start;
+}
+.carousel-title:hover{
+    color: var(--verbotblue);
+}

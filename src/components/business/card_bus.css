@@ -1,0 +1,93 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_bus_area {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.card_bus_column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    padding-bottom: 30px;
+}
+
+.card_bus_row {
+    margin: 0 -12px;
+}
+
+.card_bus_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card_bus_area .card-img {
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.5s ease-in;
+}
+
+.card_bus_area .card-img:hover {
+    transform: scale(1.07);
+    transition: 0.5s ease-out;
+}
+
+.card_bus_area .card-body {
+    position: relative;
+    padding: 0 !important;
+    background-color: #ffffff;
+    margin-top: -20px;
+    padding: 20px !important;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1366px) and (min-width:1024px) {
+    .business-date button {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .card_bus_column {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+.card_bus_area {
+
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card_bus_column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

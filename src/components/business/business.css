@@ -1,0 +1,70 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+
+.business-date {
+    color: var(--verbotblue);
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+.business-date button {
+    border-radius: 5px;
+    color: white;
+    background-color: var(--verbotblue);
+    border: none;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.business-date button:hover {
+    background-color: var(--verbotdarkblue);
+
+}
+
+
+.business-date span {
+    color: var(--verbotblue);
+    font-size: 14px;
+    margin: 5px;
+}
+
+
+.business-title {
+    margin-top: 10px;
+}
+
+.business-title p {
+    color: #000;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.business-title p:hover {
+    color: var(--verbotblue);
+}
+
+.business-paragraph{
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1366px) and (min-width:1024px) {
+    .business-date span {
+        display: none;
+    }
+}

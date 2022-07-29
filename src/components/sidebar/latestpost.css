@@ -1,0 +1,50 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.latestpost_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 10px;
+}
+
+
+
+.latestpost_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+
+.latestpost_content div {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.latestpost_content img {
+    height: 80px;
+    width: 80px;
+    display: block;
+}
+
+
+
+.latestpost_content div span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    color: #000;
+}
+
+

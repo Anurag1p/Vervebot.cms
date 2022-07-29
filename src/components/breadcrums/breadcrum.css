@@ -1,0 +1,46 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+
+  
+.breadcrumbAnchor {
+    color:var(--verbotliteblue);
+    text-decoration: none;
+    font-size: 62.5%;
+
+}
+.breadcrumb {
+    width: 90%;
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    border-radius: .25em;
+}
+
+.breadcrumb::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.breadcrumb .breadlist {
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
+.breadcrumb .breadlist::after {
+    display: inline-block;
+    content: '\00bb';
+    margin: 0 .6em;
+    color: #959fa5;
+}
+
+.breadcrumb {
+    display: inline-block;
+    font-size: 1.4rem;
+  
+  }
+ 

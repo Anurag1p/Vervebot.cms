@@ -1,0 +1,135 @@
+:root {
+    --verbotblue: #3596d9;
+    --verbotmediumblue: #277099;
+    --verbotdarkblue: #15445a;
+    --verbotliteblue :rgba(53,155,217, 0.5);
+     background-color: black;
+  }
+  
+
+.drawer {
+    width: 310px;
+    position: fixed;
+    background: #ffffff;
+    z-index:999988;
+    color: black;
+    top: 0;
+    height: 300vh;
+    transition: .5s;
+    right: 0;
+    padding: 0 0px 30px 15px;
+    overflow-y: auto;
+    display: none;
+}
+
+.drawer_body {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    position: fixed;
+    color: black;
+    z-index:999999;
+    top: 0;
+    height: 300vh;
+    transition: .5s;
+    right: 0;
+    overflow: hidden;
+    display: none;
+}
+
+
+
+.hideDrawer {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ededed;
+    color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 22px 22px 20px 22px;
+    transition: ease-in-out 0.3s;
+}
+
+.hideDrawer:hover {
+    background: var(--varvebotblue);
+    color: #ededed;
+    transition: ease-in-out 0.3s;
+}
+
+.faTimes {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+.social_links {
+    margin-top: 15px;
+}
+
+.social_links a {
+    padding: 0 3px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.social_links a:hover {
+    color: #f63a3a;
+}
+
+.social_links a:focus {
+    color: #999;
+}
+
+
+
+.drawer_company_logo {
+    margin-top: 30px;
+}
+
+.company_discription {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+
+.company_details{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 130px 0;
+}
+
+.company_phone,.company_mail {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.company_phone, .company_mail {
+    text-decoration: none;
+}
+
+.company_details a {
+    text-decoration: none;
+    color: var(--varbotdarkblue);
+}
+
+.company_details a .icon_details:hover {
+    text-decoration: none;
+    color: #f63a3a;
+}
+
+@media only screen and (max-width:768px) {
+    .drawer , .drawer_body {
+       display: flex;
+    }
+}

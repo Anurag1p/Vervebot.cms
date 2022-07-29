@@ -1,0 +1,124 @@
+:root {
+  --verbotblue: #3596d9;
+  --verbotmediumblue: #277099;
+  --verbotdarkblue: #15445a;
+  --verbotliteblue :rgba(53,155,217, 0.5);
+   background-color: black;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+
+.nav_bar {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.list-items {
+  display: inline-block;
+  text-align: center;
+  padding: 25px 0px 0px 0;
+  margin: 0 10px;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #666;
+  text-transform: capitalize;
+  line-height: 40px;
+}
+
+
+
+.list-items:hover{
+  line-height: 35px;
+  border-bottom: 4px solid var(--verbotblue);
+  color: var(--verbotmediumblue) !important;
+}
+
+
+
+.web-logo-main {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #666;
+  transition: all .3s ease-out 0s;
+  margin: 16px 40px 16px 0;
+  line-height: 60px;
+  right: 0;
+  left: 0;
+  height: 60px;
+}
+
+.list-items:hover {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+}
+
+.nav_bar .icon_open {
+  display: none;
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+ 
+  .container-large{
+    white-space: nowrap !important;
+    width:fit-content !important;
+    padding:0 !important;
+    margin:0 !important;
+    margin: 0 auto !important;
+  }
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .nav_bar .list-items {
+    display: none;
+  }
+
+  .nav_bar .icon_open {
+    display: block;
+    float: right;
+    height: 45px;
+    width: 45px;
+    background: var(--verbotblue);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 22px 5px 22px 22px ;
+    position: relative;
+  }
+
+
+  .icon_open_icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+}
